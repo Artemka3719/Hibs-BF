@@ -28,3 +28,5 @@ Section:NewButton("Script", "ButtonInfo", function()
     print("Clicked")
 loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
 end)
+
+local Tab = Window:NewTab("Neva Hub")
