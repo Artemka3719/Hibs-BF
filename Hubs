@@ -32,3 +32,28 @@ end)
 local Tab = Window:NewTab("Neva Hub")
 
 local Section = Tab:NewSection("Hub")
+
+Section:NewButton("Script", "ButtonInfo", function()
+    print("Clicked")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+end)
+
+local Tab = Window:NewTab("Mango Hub")
+
+local Section = Tab:NewSection("Hub")
+
+Section:NewButton("Script", "ButtonInfo", function()
+    print("Clicked")
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+end)
+
+local Tab = Window:NewTab("Rip Hub V2")
+
+local Section = Tab:NewSection("Hub")
+
+Section:NewButton("Script", "ButtonInfo", function()
+    print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/RIPPERHUBV2.lua"))()
+end)
+
+
