@@ -1,3 +1,9 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("TITLE", "DarkTheme")
+local Window = Library.CreateLib("More Hubs BF   5waylie", "DarkTheme")
+
+local Tab = Window:NewTab("Ren Hub")
+local Section = Tab:NewSection("Click")
+
+
+
