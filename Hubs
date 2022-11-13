@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("More Hubs Blox Fruits by 5waylie", "DarkTheme")
+local Window = Library.CreateLib("More Hubs Blox Fruits by 5waylie", "Midnight")
 
 local Tab = Window:NewTab("Ren Hub")
 
@@ -28,6 +28,24 @@ Section:NewButton("Script", "ButtonInfo", function()
     print("Clicked")
 loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
 end)
+
+local Tab = Window:NewTab("RipHub V2")
+
+local Section = Tab:NewSection("Hub")
+
+Section:NewButton("Script", "ButtonInfo", function()
+    print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/RIPPERHUBV2.lua"))()
+end)
+
+local Tab = Window:NewTab("Mango Hub")
+
+local Section = Tab:NewSection("Hub")
+
+Section:NewButton("Script", "ButtonInfo", function()
+    print("Clicked")
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+end
 
 
 
