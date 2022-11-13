@@ -65,4 +65,13 @@ Section:NewButton("Script", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/bfmobile", true))()
 end)
 
+local Tab = Window:NewTab("StringX Hub")
+
+local Section = Tab:NewSection("Hub")
+
+Section:NewButton("Script", "ButtonInfo", function()
+    print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StringV2/StringHub/main/BF.txt", true))()
+end)
+
 
