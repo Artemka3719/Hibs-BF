@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("More Hubs Blox Fruits by 5waylie", "DarkTheme")
+local Window = Library.CreateLib("More Hubs Blox Fruits by 5waylie", "Midnight")
 
 local Tab = Window:NewTab("Ren Hub")
 
