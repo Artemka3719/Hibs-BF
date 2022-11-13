@@ -64,9 +64,3 @@ Section:NewButton("Script", "ButtonInfo", function()
     print("Clicked")
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Artemka3719/farm-fruit/main/FRUITS%20FARM'))()
 end
-
-
-
-
-
-
