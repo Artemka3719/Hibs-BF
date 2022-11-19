@@ -2,85 +2,90 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 
 local Window = Library.CreateLib("More Hubs Blox Fruits by 5waylie", "DarkTheme")
 
-local Tab = Window:NewTab("Ren Hub")
+local Tab = Window:NewTab("Hubs")
 
-local Section = Tab:NewSection("Hub")
+local Section = Tab:NewSection("Ren Hub")
 
 Section:NewButton("Script", "ButtonInfo", function()
     print("Clicked")
 loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/free'))()
 end)
 
-local Tab = Window:NewTab("HoHo Hub V2")
-
-local Section = Tab:NewSection("Hub")
+local Section = Tab:NewSection("HoHo V2 Hub")
 
 Section:NewButton("Script", "ButtonInfo", function()
     print("Clicked")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HohoV2/main/ScriptLoad.lua"))()
 end)
 
-local Tab = Window:NewTab("Makuro Hub")
-
-local Section = Tab:NewSection("Hub")
+local Section = Tab:NewSection("Makuro Hub")
 
 Section:NewButton("Script", "ButtonInfo", function()
     print("Clicked")
 loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
 end)
 
-local Tab = Window:NewTab("Neva Hub")
-
-local Section = Tab:NewSection("Hub")
+local Section = Tab:NewSection("Neva Hub")
 
 Section:NewButton("Script", "ButtonInfo", function()
     print("Clicked")
 loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
 end)
 
-local Tab = Window:NewTab("Mango Hub")
-
-local Section = Tab:NewSection("Hub")
+local Section = Tab:NewSection("Mango Hub")
 
 Section:NewButton("Script", "ButtonInfo", function()
     print("Clicked")
 loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
 end)
 
-local Tab = Window:NewTab("Rip Hub V2")
-
-local Section = Tab:NewSection("Hub")
+local Section = Tab:NewSection("Rip Hub V2")
 
 Section:NewButton("Script", "ButtonInfo", function()
     print("Clicked")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/RIPPERHUBV2.lua"))()
 end)
 
-local Tab = Window:NewTab("Zen Hub")
-
-local Section = Tab:NewSection("Hub")
+local Section = Tab:NewSection("Zen Hub")
 
 Section:NewButton("Script", "ButtonInfo", function()
     print("Clicked")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/bfmobile", true))()
 end)
 
-local Tab = Window:NewTab("StringX Hub")
-
-local Section = Tab:NewSection("Hub")
+local Section = Tab:NewSection("StringX Hub")
 
 Section:NewButton("Script", "ButtonInfo", function()
     print("Clicked")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/StringV2/StringHub/main/BF.txt", true))()
 end)
 
-local Tab = Window:NewTab("SMZ Hub V2")
+local Section = Tab:NewSection("SMZ Hub V2")
+
+Section:NewButton("Script", "ButtonInfo", function()
+    print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Frerfgzz/free-script/main/SMZHUBv2BETA"))()
+end)
+
+local Section = Tab:NewSection("Crimson Hub")
+
+Section:NewButton("Script", "ButtonInfo", function()
+    print("Clicked")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TirSANX/CrimsonHUB/main/C_Loader'))()
+end)
 
 local Section = Tab:NewSection("Hub")
 
 Section:NewButton("Script", "ButtonInfo", function()
     print("Clicked")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Frerfgzz/free-script/main/SMZHUBv2BETA"))()
+end)
+
+local Section = Tab:NewSection("Nub.xyz Hub")
+
+Section:NewButton("Script", "ButtonInfo", function()
+    print("Clicked")
+loadstring(game:HttpGet("https://rawscripts.net/raw/UPDATE-16-Blox-Fruits-Nub-V1-Hub-4583"))()
 end)
 
 
